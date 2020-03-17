@@ -56,6 +56,7 @@ function populateUI() {
 
   if (selectedMovieIndex !== null) {
     movieSelect.selectedIndex = selectedMovieIndex;
+    ticketPrice = +movieSelect.value;
   }
 }
 
